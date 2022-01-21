@@ -1,0 +1,155 @@
+
+ 
+.logo{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:10em;
+  margin-bottom: 0.5em;
+
+  }
+.caption{
+    text-align: center;
+}
+  body{
+      font-family: Courier, monospace;
+
+  }
+   main{
+       background-image: url(bg-carta.png);
+       background-repeat:repeat-y;
+       background-position:-10em ;
+      
+   }
+   
+ nav li {
+    color: white;
+    display: inline-block;
+    padding: 1em;
+    list-style-type: none;
+    
+}
+nav li:hover{
+    color:yellow;
+}
+a:visited{
+    color:violet
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:turquoise;
+}
+.black{
+    
+    box-sizing:border-box ;
+    background-color: black;
+    color: blanchedalmond;
+text-decoration: blanchedalmond;
+
+}
+table{  width: 30%;
+    margin: 1em 15em;
+   border-collapse:unset;
+    border-radius: 20px;
+    background-color: rgb(62, 62, 83);
+  }
+        
+
+      th{
+          border: none;
+        color:rgb(216, 216, 41);}
+          
+      td{
+          border: none;
+    color: whitesmoke;
+    text-align:center;
+    
+         }
+         table caption{display: none;}
+  
+
+    
+.box {box-sizing: border-box;
+    background-color: rgb(175, 188, 189 ,0.5);
+    display: block;
+    padding: 1em;
+    margin: 0.5em;
+    border:2px solid black;
+}
+
+.button{box-sizing: border-box;
+    background-color: rgb(85, 117, 119); 
+    margin: 0.5em;
+    padding: auto;
+    border-style: solid grey;
+    height:2em;
+
+}
+section input{margin-left: 5px;
+   margin-top: 5px;
+    width:20em;
+}
+.button1{ color:white;
+background-color: rgb(65, 63, 63);}
+
+footer{ background-color: rgb(35, 44, 44);
+    text-align: center;
+color: white;
+line-height: 2em;
+}
+
+
+@media  screen and (max-width: 320px ){
+
+    nav>ul> li{
+    display:block;
+    background-color: rgb(35, 35, 41);
+}
+/* max-width:480px smartphone*/
+/*min-width:481px desktop*/
+
+
+}
+
+@media screen and(min-width:321px) {
+    nav>ul>li{
+        display:inline
+    }
+
+    header{
+        line-height:1.5em;
+    }
+    table{
+        width:50%;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media print {
+ nav {display:none;
+}
+
+body>header>img{
+    display: none;
+}
+main{
+
+    background-image: initial;
+}
+body {
+    text-align:justify;
+    font-size: 2em;
+}
+
+table{
+    width: 30%;
+    margin: 1em 15em;
+   border-collapse:unset;
+    border-radius: 20px;
+    background-color: rgb(62, 62, 83);
+
+}
+}

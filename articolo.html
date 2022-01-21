@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Articolo layout</title>
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="assets/logo.png" alt="logo">
+        <h3 class="caption"> WEBDEV_IL BLOG DEI DEVELOPERS</h3>
+
+        <nav  class="black">
+            <ul  >
+                <li>Home</li>
+                <li>Articoli</li>
+                <li>Lavora con noi</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h3>Come creare un template per i post</h3>
+            <i><b>di Mario Rossi</b>-pubblicato il 25-10-2020</i>
+            <p>La prima cosa da fare è suddividere in blocchi logici la pagina, separando le parti
+                comuni a tutte le pagine da quelle specifiche<br>
+                Le varie aree saranno quindi suddivise in:
+            <ul class="aree">
+                <li>Contenuti di intestazione del tag &lt;header&gt;</header>
+                </li>
+                <li>Contenuti centrali variabili del tag &lt;main&gt;(corpo principale)</li>
+                <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</footer>
+                </li>
+            </ul>
+            </p>
+
+        </div>
+        <div>
+            <h3>Formattazione del codice</h3>
+            Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da
+            selezionare con i CSS. Perciò i passi saranno:
+            <ol>
+                <li> Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag
+                    appropriato</li>
+                <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso
+                </li>
+                <li>Applicare gli stili CSS</li>
+            </ol>
+            L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione
+            pressoché totale.
+           
+            <table border="1px">
+                 <caption><b> Diffusione dei CSS</b></caption>
+                <thead>
+                    <th>Anno</th>
+                    <th>%di utilizzo</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2000</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>35%</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45%</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>100%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            Un test di validazione potrà essere fatto tramite <a href="https://jigsaw.w3.org/css-validator/"> il tool
+                online apposito</a>
+        </div>
+        <div id="div4">
+            <i><b>Vuoi rimanere aggiornato su altre novita del blog? Iscriviti alla nostra newsletter:</b></i><br>
+            <section class="button"> <input class="email" type="text" placeholder="inserisci l'email" required>
+                <button type="button" class="button1">ISCRIVITI!</button>
+            
+</section>
+        </div>
+    </main>
+        <div>
+
+            <h2>Articoli correlati</h2>
+            <section class="box">
+               <a href="" >Validare il codice HTML</a><br>
+                Categoria:develop<br>
+                data:18-9-2020
+            </section>
+            <section class="box">
+                <a href="">Corregere la sintazi</a><br>
+                Categoria:develop  <br>
+                Data:16-9-2020
+            </section>
+            <section class="box">
+                <a href="">Meno Kb nella pagina</a><br>
+                Categoria ottimizzazione <br>
+                Data:30-9-2020
+            </section>
+        </div>
+
+
+<footer>
+    <h3>Blog develop &copy;2020</h3>
+    Testata online di Mario Rossi, registrata con n.213/2018 con sede in via Luigi Einaudi2_Milano.<br>
+    P:IVA 00112233. <a href="mailto:info@blogdevelop.it"><u>info@blogdevelop.it</u></a>
+
+</footer>
+
+
+
+
+</body>
+</html>
